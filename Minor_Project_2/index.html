@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aether — The Smartwatch That Keeps Up</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="bg-gray-900">
+        <nav  class="flex justify-between items-center p-6 max-w-6xl mx-auto text-white">
+            <p class="font-bold text-xl">Aether</p>
+            <div class="hidden md:flex gap-6">
+                <a href="#features" class="hover:text-orange-400">Features</a>
+                <a href="#benefits" class="hover:text-orange-400">Benefits</a>
+                <a href="#reviews" class="hover:text-orange-400">Reviews</a>
+                <a href="#pricing" class="hover:text-orange-400">Pricing</a>
+            </div>
+            <a href="#pricing" class="hidden md:inline-block bg-orange-500 px-4 py-2 rounded-full">Buy Now</a>
+            <button id="menuBtn" class="md:hidden text-2xl">☰</button>
+        </nav>
+        <div id="mobileMenu" class="md:hidden hidden bg-gray-900 px-6 py-4">
+            <a href="#features" class="block py-2 text-white hover:text-orange-400">Features</a>
+            <a href="#benefits" class="block py-2 text-white hover:text-orange-400">Benefits</a>
+            <a href="#reviews" class="block py-2 text-white hover:text-orange-400">Reviews</a>
+            <a href="#pricing" class="block py-2 text-white hover:text-orange-400">Pricing</a>
+        </div>
+    </header>
+    <section class="bg-gradient-to-br from-black via-gray-900 to-orange-950 text-white">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center p-10 max-w-6xl mx-auto">
+            <div>
+                <span class="text-orange-400 text-xs font-semibold tracking-widest uppercase">Introducing Aether Watch</span>
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">One watch. Every part of your day.</h1>
+                <p class="text-gray-400 mb-6">Aether tracks your heart rate, sleep, and workouts in real time — then gets out of the way, with 10-day battery life.</p>
+                <div class="flex gap-4 mb-6">
+                    <a href="#pricing" class="bg-orange-500 px-6 py-3 rounded-full font-semibold">Buy Now — $249</a>
+                    <a href="#features" class="border border-gray-600 px-6 py-3 rounded-full font-semibold">Learn More</a>
+                </div>
+                <div class="flex gap-4 text-sm text-gray-500">
+                    <span>10-day battery</span>
+                    <span>•</span>
+                    <span>50m water resistant</span>
+                    <span>•</span>
+                    <span>Free shipping</span>
+                </div>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1544117519-31a4b719223d?w=700&q=80" alt="Aether smartwatch on a wrist" class="rounded-2xl w-full aspect-square object-cover">
+            </div>
+        </div>
+    </section>
+    <section id="features" class="bg-gray-900 text-white">
+        <div class="p-10 max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-10">Built for the way you move.</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-black p-6 rounded-2xl border border-gray-800 hover:border-orange-500 transition-colors">
+                    <div class="w-10 h-10 rounded-full bg-orange-500/20 flex items-center justify-center mb-4 text-orange-400">⚡</div>
+                    <h3 class="font-semibold text-lg mb-2">10-Day Battery</h3>
+                    <p class="text-gray-400 text-sm">Charge once a week, not every night.</p>
+                </div>
+                <div class="bg-black p-6 rounded-2xl border border-gray-800 hover:border-orange-500 transition-colors">
+                    <div class="w-10 h-10 rounded-full bg-orange-500/20 flex items-center justify-center mb-4 text-orange-400">❤️</div>
+                    <h3 class="font-semibold text-lg mb-2">24/7 Heart Rate</h3>
+                    <p class="text-gray-400 text-sm">Continuous tracking with alerts for highs and lows.</p>
+                </div>
+                <div class="bg-black p-6 rounded-2xl border border-gray-800 hover:border-orange-500 transition-colors">
+                    <div class="w-10 h-10 rounded-full bg-orange-500/20 flex items-center justify-center mb-4 text-orange-400">🌙</div>
+                    <h3 class="font-semibold text-lg mb-2">Sleep Tracking</h3>
+                    <p class="text-gray-400 text-sm">Breaks down light, deep, and REM sleep.</p>
+                </div>
+                <div class="bg-black p-6 rounded-2xl border border-gray-800 hover:border-orange-500 transition-colors">
+                    <div class="w-10 h-10 rounded-full bg-orange-500/20 flex items-center justify-center mb-4 text-orange-400">☀️</div>
+                    <h3 class="font-semibold text-lg mb-2">Always-On Display</h3>
+                    <p class="text-gray-400 text-sm">Readable in direct sunlight.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section id="benefits" class="bg-black text-white">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center p-10 max-w-6xl mx-auto">
+            <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=700&q=80" alt="Person checking Aether smartwatch while exercising" class="rounded-2xl w-full aspect-square object-cover order-2 md:order-1">
+            <div class="order-1 md:order-2">
+                <span class="text-orange-400 text-xs font-semibold tracking-widest uppercase">Benefits</span>
+                <h2 class="text-3xl font-bold mt-4 mb-6">Less fiddling. More doing.</h2>
+                <ul class="space-y-4">
+                    <li>
+                        <p class="font-semibold">No daily charging</p>
+                        <p class="text-gray-400 text-sm">Ten days per charge means it's never dead when you need it.</p>
+                    </li>
+                    <li>
+                        <p class="font-semibold">Works with any phone</p>
+                        <p class="text-gray-400 text-sm">Full feature parity on both iOS and Android.</p>
+                    </li>
+                    <li>
+                        <p class="font-semibold">Built to actually wear</p>
+                        <p class="text-gray-400 text-sm">38g, swim-proof, with a strap that doesn't irritate skin.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="reviews" class="bg-gray-900 text-white">
+        <div class="p-10 max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-10">What people are saying.</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-black p-6 rounded-2xl border border-gray-800">
+                    <div class="text-orange-400 mb-4">★★★★★</div>
+                    <p class="text-gray-300 text-sm mb-6">"I stopped thinking about charging it. That alone made it worth switching from my old watch."</p>
+                    <p class="font-semibold text-sm">Maya R.</p>
+                    <p class="text-gray-500 text-xs">Verified Buyer</p>
+                </div>
+                <div class="bg-black p-6 rounded-2xl border border-gray-800">
+                    <div class="text-orange-400 mb-4">★★★★★</div>
+                    <p class="text-gray-300 text-sm mb-6">"Sleep tracking is genuinely accurate — it caught a pattern in my sleep I hadn't noticed myself."</p>
+                    <p class="font-semibold text-sm">Devraj K.</p>
+                    <p class="text-gray-500 text-xs">Verified Buyer</p>
+                </div>
+                <div class="bg-black p-6 rounded-2xl border border-gray-800">
+                    <div class="text-orange-400 mb-4">★★★★★</div>
+                    <p class="text-gray-300 text-sm mb-6">"Screen is readable outdoors even at noon, which was the exact thing my last watch failed at."</p>
+                    <p class="font-semibold text-sm">Priya S.</p>
+                    <p class="text-gray-500 text-xs">Verified Buyer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="bg-black text-white">
+        <div class="p-10 max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-10 text-center">One watch. One price. No subscription.</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+
+                <div class="border border-gray-700 rounded-2xl p-8 flex flex-col">
+                    <h3 class="font-semibold text-lg mb-1">Aether</h3>
+                    <p class="text-gray-500 text-sm mb-6">The essentials, done well.</p>
+                    <div class="text-4xl font-bold mb-6">$249</div>
+                    <ul class="text-sm text-gray-400 space-y-2 mb-8 flex-1">
+                        <li>Heart rate + sleep tracking</li>
+                        <li>10-day battery</li>
+                        <li>50m water resistant</li>
+                    </ul>
+                    <a href="#" class="text-center border border-gray-600 font-semibold px-6 py-3 rounded-full">Buy Now</a>
+                </div>
+
+                <div class="border-2 border-orange-500 rounded-2xl p-8 flex flex-col relative bg-gray-900">
+                    <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-orange-500 text-black text-xs font-bold px-3 py-1 rounded-full">MOST POPULAR</span>
+                    <h3 class="font-semibold text-lg mb-1">Aether Pro</h3>
+                    <p class="text-gray-500 text-sm mb-6">Built-in GPS and cellular.</p>
+                    <div class="text-4xl font-bold mb-6">$329</div>
+                    <ul class="text-sm text-gray-400 space-y-2 mb-8 flex-1">
+                        <li>Everything in Aether</li>
+                        <li>Built-in GPS</li>
+                        <li>LTE cellular connectivity</li>
+                    </ul>
+                    <a href="#" class="text-center bg-orange-500 text-black font-semibold px-6 py-3 rounded-full">Buy Now</a>
+                </div>
+
+                <div class="border border-gray-700 rounded-2xl p-8 flex flex-col">
+                    <h3 class="font-semibold text-lg mb-1">Aether Titanium</h3>
+                    <p class="text-gray-500 text-sm mb-6">Premium build, same core.</p>
+                    <div class="text-4xl font-bold mb-6">$449</div>
+                    <ul class="text-sm text-gray-400 space-y-2 mb-8 flex-1">
+                        <li>Everything in Aether Pro</li>
+                        <li>Titanium case</li>
+                        <li>Sapphire crystal display</li>
+                    </ul>
+                    <a href="#" class="text-center border border-gray-600 font-semibold px-6 py-3 rounded-full">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-900 text-white">
+    <div class="p-6 max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div>
+                    <p class="font-bold text-xl">Aether</p>
+                    <p class="text-gray-400 text-sm">One watch for every part of your day.</p>
+                </div>
+                <div>
+                    <p><a href="mailto:support@aetherwatch.com" class="hover:text-orange-400">support@aetherwatch.com</a></p>
+                </div>
+                <div>
+                    <p class="font-bold mb-2">Company</p>
+                    <p><a href="#" class="text-gray-400 hover:text-orange-400">About</a></p>
+                    <p><a href="#" class="text-gray-400 hover:text-orange-400">Careers</a></p>
+                </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-gray-700 text-gray-500 text-sm">
+                © 2026 Aether Watch Co. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
