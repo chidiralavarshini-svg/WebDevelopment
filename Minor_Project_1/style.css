@@ -17,7 +17,7 @@ nav{
     border-bottom: 1px solid #30363d;
 }
 nav h2{
-    color: white;
+    color: white; 
 }
 .menu{
     display: flex;
