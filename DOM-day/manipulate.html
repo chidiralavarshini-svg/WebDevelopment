@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">login</button>
+
+    <p id="mp">welcome guest</p>
+
+    <div id="mydiv" style="background-color: beige;">this is div</div>
+
+    <p id="abc">this is dull paragaraph</p>
+    <ul id="xyz">
+    <li>gym</li>
+    </ul>
+    <script>
+        const buttton=document.getElementById("btn")
+        console.log(buttton)
+        console.log(buttton.textContent)
+        buttton.textContent="logout"
+
+        const parag=document.getElementById("mp")
+        console.log(parag)
+        parag.textContent="good evening hima"
+
+        const container=document.getElementById("mydiv")
+        console.log(container)
+        container.innerHTML="<h2>this is a heading tag</h2>"
+
+        container.innerHTML = `
+        <p>This is <mark>Updated</mark> Tag</p>
+        <img src="https://images.pexels.com/photos/38593974/pexels-photo-38593974.jpeg" height="100" width="150">
+        <button>Smile</button>
+        
+        `
+        const para=document.getElementById("abc")
+        para.style.color="red"
+        para.style.backgroundColor="blue"
+        para.style.textAlign="center"
+        para.textContent = "This is New Paragaph Tag"
+
+        const list = document.getElementById("xyz")
+        const li=document.createElement("li")
+        li.textContent = "Office"
+        li.style.color = "red"
+        list.appendChild(li)
+    </script>
+</body>
+</html>
